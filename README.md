@@ -1,4 +1,13 @@
 ## 🚀 Getting Started
+## 🏗️ Architecture
+
+- **Planner Agent** – Analyzes your request and generates a detailed project plan.
+- **Architect Agent** – Breaks down the plan into specific engineering tasks with explicit context for each file.
+- **Coder Agent** – Implements each task, writes directly into files, and uses available tools like a real developer.
+
+<div style="text-align: center;">
+    <img src="resources/coder_buddy_diagram.png" alt="Coder Agent Architecture" width="90%"/>
+</div>
 ### Prerequisites
 - Make sure you have uv installed, follow the instructions [here](https://docs.astral.sh/uv/getting-started/installation/) to install it.
 - Ensure that you have created a groq account and have your API key ready. Create an API key [here](https://console.groq.com/keys).
