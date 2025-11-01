@@ -1,5 +1,24 @@
-# Object file
-*.o
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-# Ada Library Information
-*.ali
+# Virtual environments
+.venv
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
